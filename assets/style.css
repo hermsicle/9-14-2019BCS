@@ -1,0 +1,98 @@
+* {
+    margin : 0;
+}
+
+body {
+    background: url(./Image/nasa-Yj1M5riCKk4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 10vh;
+    background-color: lightslategray;
+    display: table;
+    width: 100%;
+    opacity: .25 !important;
+
+}
+
+.nav-link-container {
+    display:table;
+    float: right;
+    height: 10vh;
+    margin-right:120px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.nav-link {
+    display:table-cell;
+    vertical-align: middle;
+    padding-left:50px;
+}
+
+.nav-container{
+    display:table-cell;
+    vertical-align: middle;
+
+
+}
+
+
+
+.name {
+    color:white;
+    display: table-cell;
+    padding: 25px;
+    vertical-align:  middle;
+    padding-left:120px;
+}
+
+.container {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header {
+    height:20%;
+    background-color: lightslategray;
+    display: table;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.card-header-text {
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+
+
+}
+.card-text {
+    padding:15px;
+    letter-spacing: .068cm;
+
+}
+
+main {
+    height:80vh;
+    position: relative;
+
+}
+footer {
+    height: 10vh;
+    background-color: lightslategray;
+    opacity: .5;
+
+}
